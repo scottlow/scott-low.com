@@ -100,7 +100,7 @@
 /* #Links
 ================================================== */
 	a {color: #1eb5d8;}
-	.footer-link, a:visited{ color: #FFFFFF; }
+	.footer-link, .footer-link:visited{ color: #FFFFFF; }
 	/*a, a:visited { color: #000;text-decoration: none; }	*/
 	.footer-link a:hover{ color: #1eb5d8; }	
 	a:hover, a:focus { color: #1eb5d8;}
