@@ -154,8 +154,8 @@ $(document).ready(function(){
     zoom: 14,
     scrollwheel: false,
         el: '#map',
-        lat: 48.46500,
-        lng: -123.312
+        lat: 47.6278632,
+        lng: -122.3333217
       });
       map.drawOverlay({
         lat: map.getCenter().lat(),
