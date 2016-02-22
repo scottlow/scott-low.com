@@ -155,7 +155,7 @@ $(document).ready(function(){
     scrollwheel: false,
         el: '#map',
         lat: 47.6278632,
-        lng: -122.3333217
+        lng: -122.3187615
       });
       map.drawOverlay({
         lat: map.getCenter().lat(),
