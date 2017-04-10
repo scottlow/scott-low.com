@@ -66,6 +66,9 @@ a {
 .no-top-margin {
     margin-top: 0px !important;
 }
+.no-bottom-border {
+    border-bottom: 0px !important;
+}
 
 /* style for wow animation*/
 .a1 {
@@ -233,6 +236,37 @@ body {
         &:first-child {
             margin-top: 30px;
         }
+
+        .skill-line {
+            padding-right: 30px;
+            padding-left: 0px;
+            border-bottom: 1px solid @border-color;
+            padding-bottom: 12px;
+
+            .progress {
+                background-color: @border-color;
+                height: 2px;
+                overflow: visible;
+            }
+            .determinate {
+                background-color: @white;
+
+                .fa {
+                    font-size: 12px;
+                    position: absolute;
+                    top: -5px;
+                    right: 0px;
+                    margin-left: 50%;
+                }
+            }
+            h3 {
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+            span {
+                opacity: initial;
+            }
+        }
     }
     .section-item-details {
         padding-right: 26px;
@@ -272,34 +306,6 @@ body {
             }
         }
     }
-    .skill-line {
-        padding-right: 30px;
-        padding-left: 0px;
-
-        .progress {
-            background-color: @border-color;
-            height: 2px;
-            overflow: visible;
-        }
-        .determinate {
-            background-color: @white;
-
-            .fa {
-                font-size: 12px;
-                position: absolute;
-                top: -5px;
-                right: 0px;
-                margin-left: 50%;
-            }
-        }
-        h3 {
-            margin-top: 0px;
-            margin-bottom: 20px;
-        }
-        span {
-            opacity: initial;
-        }
-    }
 }
 
 /* style for
@@ -311,7 +317,7 @@ body {
     overflow: hidden;
 }
 .section {
-    padding-left: 32px !important;
+    padding-left: 24px !important;
     text-align: left;
 
     .fa {

@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------
 
 [Master Stylesheet]
-Project:	    Matarial CV/Resume Template
-Version:	    1.0
-Last change:	06/02/16
-Primary use:	CV/Resume, Portfolio, Perosnal Website
+Project:        Matarial CV/Resume Template
+Version:        1.0
+Last change:    06/02/16
+Primary use:    CV/Resume, Portfolio, Perosnal Website
 
 -------------------------------------------------------------------*/
 /*
@@ -56,6 +56,9 @@ a {
 }
 .no-top-margin {
   margin-top: 0px !important;
+}
+.no-bottom-border {
+  border-bottom: 0px !important;
 }
 /* style for wow animation*/
 .a1 {
@@ -208,6 +211,34 @@ body {
 .sidebar .sidebar-item:first-child {
   margin-top: 30px;
 }
+.sidebar .sidebar-item .skill-line {
+  padding-right: 30px;
+  padding-left: 0px;
+  border-bottom: 1px solid #039be5;
+  padding-bottom: 12px;
+}
+.sidebar .sidebar-item .skill-line .progress {
+  background-color: #039be5;
+  height: 2px;
+  overflow: visible;
+}
+.sidebar .sidebar-item .skill-line .determinate {
+  background-color: #ffffff;
+}
+.sidebar .sidebar-item .skill-line .determinate .fa {
+  font-size: 12px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  margin-left: 50%;
+}
+.sidebar .sidebar-item .skill-line h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.sidebar .sidebar-item .skill-line span {
+  opacity: initial;
+}
 .sidebar .section-item-details {
   padding-right: 26px;
   margin-bottom: 30px;
@@ -238,32 +269,6 @@ body {
 .sidebar .address-details h4 span {
   font-size: 10pt;
 }
-.sidebar .skill-line {
-  padding-right: 30px;
-  padding-left: 0px;
-}
-.sidebar .skill-line .progress {
-  background-color: #039be5;
-  height: 2px;
-  overflow: visible;
-}
-.sidebar .skill-line .determinate {
-  background-color: #ffffff;
-}
-.sidebar .skill-line .determinate .fa {
-  font-size: 12px;
-  position: absolute;
-  top: -5px;
-  right: 0px;
-  margin-left: 50%;
-}
-.sidebar .skill-line h3 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-.sidebar .skill-line span {
-  opacity: initial;
-}
 /* style for
 
 ***** Sections *****
@@ -273,7 +278,7 @@ body {
   overflow: hidden;
 }
 .section {
-  padding-left: 32px !important;
+  padding-left: 24px !important;
   text-align: left;
 }
 .section .fa {
@@ -588,7 +593,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: red;
 }
 .text-success {
-  color: #5da4d9 ;
+  color: #5da4d9;
 }
 /*
 |----------------------------------------------------------------------------
