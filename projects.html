@@ -27,6 +27,7 @@
         <!--FONTAWESOME CSS-->
         <link href="assets/icons/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <!-- CUSTOM STYLE -->
+        <link href="assets/css/nav.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">
         <!-- RESPONSIVE CSS-->
         <link href="assets/css/responsive.css" rel="stylesheet">
@@ -35,7 +36,7 @@
         <!--<link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">-->
         <!--<link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange">-->
         <!--<link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green">-->
-        <!--<link rel="stylesheet" href="assets/css/colors/lime.css" title="lime"> -->
+        <!--<link rel="stylesheet" href="assets/css/colors/lime.css" title="lime">-->
         <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif] -->
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -199,42 +200,66 @@
                     </div>
                 </aside>
                 <!-- =========================================
-                Google Map
-                ===========================================-->
+                Projects
+                ==========================================-->
                 <section class="col s12 m12 l8 section">
-                    <!-- Start map -->
-                    <div class="section-wrapper g-map z-depth-1">
-                        <div id="map"> </div>
-                    </div>
-                    <!--=======================================
-                    Contact
-                    ==========================================-->
-                    <div class="section-wrapper z-depth-1">
-                        <div class="section-icon col s12 m12 l2">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                        <div class="col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s">
-                            <h2>Contact</h2>
-                            <div class="contact-form" id="contact">
+                    <div class="full-portfolio">
+                        <div class="wow fadeIn a1" data-wow-delay="0.1s">
+                            <!--
+                            <div class="portfolio-nav section-wrapper z-depth-1">
+                                <ul>
+                                    <li class="filter" data-filter="all">Show All</li>
+                                    <li class="filter" data-filter=".category-1">Art</li>
+                                    <li class="filter" data-filter=".category-2">Icons</li>
+                                    <li class="filter" data-filter=".category-4">Materials</li>
+                                </ul>
+                            </div>
+                            -->
+                            <div id="loader">
+                                <div class="loader-icon"></div>
+                            </div>
+                            <div class="screenshots" id="portfolio-item" >
                                 <div class="row">
-                                    <form role="form" id="contactForm" data-toggle="validator">
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="input-field col s12">
-                                            <label for="name" class="h4">Name *</label>
-                                            <input type="text" class="form-control validate" id="name" required data-error="NEW ERROR MESSAGE">
-                                        </div>
-                                        <div class="input-field col s12">
-                                            <label for="email" class="h4">Email *</label>
-                                            <input type="email" class="form-control validate" id="email"  required>
-                                        </div>
-                                        <div class="input-field col s12">
-                                            <label for="message" class="h4 ">Message *</label>
-                                            <textarea id="message" class="form-control materialize-textarea validate" required></textarea>
-                                        </div>
-                                        <button type="submit" id="form-submit" class="btn btn-success">Submit</button>
-                                        <div class="clearfix"></div>
-                                    </form>
+                                    <ul class="grid">
+                                        <!-- Portfolio one-->
+                                        <li class="col m6 s1 2 mix category-1">
+                                            <a href="portfolio-full.html" class="sa-view-project-detail" data-action="#project-one">
+                                                <figure class="more">
+                                                    <img src="assets/images/p.jpg" alt="Screenshot 01" class="">
+                                                    <figcaption>
+                                                    <div class="caption-content">
+                                                        <div class="single_image">
+                                                            <h2>beLocal Victoria</h2>
+                                                            <p>Connecting local farmers and foodmakers with their community.</p>
+                                                        </div>
+                                                    </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </li>
+                                        <!-- Portfolio two-->
+                                        <li class="col m6 s12 mix category-2">
+                                            <a href="portfolio-full.html" class="sa-view-project-detail" data-action="#project-two">
+                                                <figure class="more">
+                                                    <img src="assets/images/p-2.jpg" alt="Screenshot 01" class="">
+                                                    <figcaption>
+                                                    <div class="caption-content">
+                                                        <div class="single_image">
+                                                            <h2>Study+</h2>
+                                                            <p>A web application geared to help students find groups of peers to study with.</p>
+                                                        </div>
+                                                    </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
+                            </div>
+                            <!-- PROJECT DETAILS WILL BE LOADED HERE -->
+                            <div class="sa-project-gallery-view" id="project-gallery-view"></div>
+                            <div class="back-btn col s12">
+                                <a id="back-button" class="btn btn-info waves-effect" href="#" ><i class="fa fa-long-arrow-left"></i> Go Back </a>
                             </div>
                         </div>
                     </div>
@@ -255,10 +280,9 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end row -->
                 </section>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
+            </div>
+        </div>
         <!--=====================
         JavaScript
         ===================== -->
@@ -269,7 +293,7 @@
         <!-- wow js-->
         <script src="assets/js/wow.min.js"></script>
         <!-- Map api -->
-        <script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <!-- <script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script> -->
         <!-- Masonry js-->
         <script src="assets/js/masonry.pkgd.js"></script>
         <script src="assets/js/validator.min.js"></script>
