@@ -48,9 +48,6 @@ p {
   font-size: 10pt;
   line-height: 17pt;
 }
-a {
-  color: #ffffff;
-}
 .clear {
   clear: both;
 }
@@ -210,6 +207,9 @@ body {
 }
 .sidebar .sidebar-item:first-child {
   margin-top: 30px;
+}
+.sidebar .sidebar-item a {
+  color: #ffffff;
 }
 .sidebar .sidebar-item .skill-line {
   padding-right: 30px;
