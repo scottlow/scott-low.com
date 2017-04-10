@@ -717,20 +717,14 @@ input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([re
     min-height: 930px;
     position: relative;
     display: none;
+    text-align: center;
 }
 #loader .loader-icon {
-    background: url(../images/loading.gif) no-repeat center center;
-    background-color: #FFF;
-    margin: -22px -22px;
-    top: 50%;
-    left: 60%;
+    margin-top: 50px;
     z-index: 10000;
-    position: fixed;
+    display: inline-block;
     width: 44px;
     height: 44px;
-    -webkit-background-size: 30px 30px;
-    background-size: 30px 30px;
-    border-radius: 5px;
 }
 .full-project {
     padding: 30px !important;
@@ -738,6 +732,7 @@ input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([re
 .single-project {
     background-color: #fff;
     margin-bottom: 20px;
+    padding: 0 !important;
 
     .full-project-title {
         font-size: 30px;
