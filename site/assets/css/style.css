@@ -302,6 +302,10 @@ body {
 .section .social-section {
   padding-bottom: 0px !important;
 }
+.section .social-section ul {
+  margin: 0px;
+  overflow: hidden;
+}
 /* style for
 
 ***** Work Experience  *****
