@@ -7,6 +7,11 @@ $(document).ready(function() {
 
     $('.button-collapse').sideNav();
 
+    $('.more-container').click(function() {
+        $('.collapse-container').toggleClass('collapse');
+        $('.more-icon').toggleClass('fa-chevron-circle-right fa-chevron-circle-down')
+    });
+
     /**************************************************************************
                  SKILL BAR
     **************************************************************************/

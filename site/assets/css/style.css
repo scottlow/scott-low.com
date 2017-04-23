@@ -143,8 +143,35 @@ body {
   overflow: hidden;
   display: block;
 }
+@media only screen and (max-width: 992px) {
+  .sidebar .row:first-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .sidebar .collapse-container.collapse {
+    display: none !important;
+  }
+}
 .sidebar .heading {
   position: relative;
+}
+.sidebar .heading .more-container {
+  margin-top: 20px;
+  font-size: 10pt;
+  cursor: pointer;
+  display: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@media only screen and (max-width: 992px) {
+  .sidebar .heading .more-container {
+    display: block;
+  }
 }
 .sidebar .heading .feature-img {
   position: relative;
@@ -193,6 +220,9 @@ body {
   margin: 0px;
   padding: 0px;
   line-height: 15pt;
+}
+.sidebar .heading .title .more-icon {
+  vertical-align: middle;
 }
 .sidebar .icon {
   margin-top: 8px;

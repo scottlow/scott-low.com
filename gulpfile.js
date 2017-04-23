@@ -9,7 +9,8 @@ gulp.task('webserver', function() {
       livereload: true,
       directoryListing: false,
       open: true,
-      defaultFile: 'index.html'
+      defaultFile: 'index.html',
+      host: "0.0.0.0"
     }));
 });
 
