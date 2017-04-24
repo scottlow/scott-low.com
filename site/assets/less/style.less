@@ -45,12 +45,26 @@ Primary use:    CV/Resume, Portfolio, Perosnal Website
 @border-color: #039be5;
 @font-color: #767270;
 @grid-l-max: 992px;
-
 * {
     font-family: 'roboto', sans-serif;
 }
 .fix {
     overflow: hidden;
+}
+nav {
+    background-color: @main-color;
+
+    #nav-mobile {
+        h3 {
+            color: @main-color;
+            padding: 0 15px;
+        }
+        li {
+            &:hover {
+                background-color: @border-color;
+            }
+        }
+    }
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -139,6 +153,11 @@ body {
     background-color: @body-bg-color;
     color: @font-color;
     text-align: center;
+    padding-top: 60px;
+
+    @media only screen and (max-width:@grid-l-max) {
+        padding-top: 56px;
+    }
 }
 .container {
     margin-top: 24px;
@@ -197,42 +216,6 @@ body {
         }
         .button-collapse {
             display: block !important;
-        }
-        .nav-icon {
-            position: absolute;
-            top: 0;
-            padding: 0 16px;
-        }
-        nav {
-            background-color: initial;
-            box-shadow: initial;
-
-            .button-collapse {
-                i {
-                    height: 30px;
-                    font-size: 18pt;
-                    line-height: 24pt;
-                    background-color: @main-color;
-                    margin-top: 20px;
-                    padding: 0px 6px;
-                }
-            }
-            .side-nav {
-                h3 {
-                    color: @main-color;
-                    padding: 0 15px;
-                }
-                li {
-                    a {
-                        &:hover {
-                            color: @main-color;
-                        }
-                    }
-                    &:hover {
-                        background-color: transparent !important;
-                    }
-                }
-            }
         }
         .title {
             position: absolute;

@@ -19,6 +19,7 @@ gulp.task('less', function () {
     .pipe(less({
       paths: [ path.join(__dirname, 'less', 'includes') ]
     }))
+    .on('error', function(error){console.log(error.message)})
     .pipe(gulp.dest('./site/assets/css'));
 });
 
