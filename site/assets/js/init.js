@@ -12,6 +12,67 @@ $(document).ready(function() {
         $('.more-icon').toggleClass('fa-chevron-circle-right fa-chevron-circle-down')
     });
 
+    var catcher = $('#catcher');
+    var sidebar = $('#sidebar');
+    var content = $('#content');
+
+    // Sticky Sidebar
+    function isScrolledTo(elem) {
+        var docViewTop = $(window).scrollTop(); //num of pixels hidden above current screen
+        var docViewBottom = docViewTop + $(window).height();
+        var elemTop = $(elem).offset().top; //num of pixels above the elem
+        var elemBottom = elemTop + $(elem).height();
+        return ((elemBottom + 20 <= docViewBottom));
+    }
+
+    function recalculateStickySidebar() {
+        if(isScrolledTo(sidebar)) {
+            var width = sidebar.outerWidth();
+            sidebar.css('position','fixed');
+            sidebar.css('top', '-445px');
+            sidebar.css('width', width + 'px');
+            content.css('position', 'relative');
+            content.css('left', width + 'px');
+        }
+        var stopHeight = catcher.offset().top + catcher.height();
+        if (stopHeight > sidebar.offset().top) {
+            sidebar.css('position','static');
+            sidebar.css('top', 'auto');
+            sidebar.css('width', '33.33333%');
+            content.css('position', 'static');
+            content.css('left', 'auto');
+        }
+    }
+
+    function shouldEnableStickySidebar() {
+        return ($(window).width() > 992 && content.height() > sidebar.height());
+    }
+
+    function initStickySidebarOnResize() {
+        if(shouldEnableStickySidebar()) {
+            $(window).scroll(recalculateStickySidebar);
+        } else {
+            $(window).off('scroll', recalculateStickySidebar);
+            sidebar.css('position','');
+            sidebar.css('top', '');
+            sidebar.css('width', '');
+            content.css('position', '');
+            content.css('left', '');
+        }
+    }
+
+    function initStickySidebarOnLoad() {
+        if(shouldEnableStickySidebar()) {
+            $(window).scroll(recalculateStickySidebar);
+        }
+    }
+
+    $(window).resize(function() {
+        initStickySidebarOnResize();
+    });
+
+    initStickySidebarOnLoad();
+
     /**************************************************************************
                  SKILL BAR
     **************************************************************************/
@@ -123,7 +184,10 @@ $(document).ready(function() {
     /**************************************************************************
        Projects
     **************************************************************************/
-    $('#portfolio-item').mixItUp();
+    var portfolioItem = $('#portfolio-item');
+    if(typeof portfolioItem.mixItUp == 'function') {
+        portfolioItem.mixItUp();
+    }
 
     $('.sa-view-project-detail').on('click', function(event) {
         event.preventDefault();
@@ -201,7 +265,9 @@ $(document).ready(function() {
             MAP
 ***************************************************************************/
 
-google.maps.event.addDomListener(window, 'load', init);
+if(typeof google != 'undefined') {
+    google.maps.event.addDomListener(window, 'load', init);
+}
 
 function init() {
     var lat = 47.6393225;
