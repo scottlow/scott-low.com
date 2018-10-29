@@ -305,6 +305,14 @@ body {
   display: block;
   font-size: 30pt;
 }
+.section .work-location {
+  text-align: center;
+  display: block;
+  font-size: 20pt;
+}
+.section .spacer {
+  clear: both;
+}
 .section .section-wrapper {
   background-color: #ffffff;
   overflow: hidden;
@@ -312,11 +320,22 @@ body {
   padding-bottom: 24px !important;
 }
 .section .section-wrapper .section-icon {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .section .section-wrapper h2 {
   margin-top: 30px;
   margin-bottom: 25px;
+}
+.section .section-wrapper ul {
+  margin-left: 30px;
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+  line-height: 17pt;
+}
+.section .section-wrapper ul li {
+  list-style-type: disc;
 }
 .section .social-section {
   padding-bottom: 0px !important;
@@ -324,6 +343,11 @@ body {
 .section .social-section ul {
   margin: 0px;
   overflow: hidden;
+}
+.section .social-section .fab {
+  text-align: center;
+  display: block;
+  font-size: 30pt;
 }
 /* style for
 
