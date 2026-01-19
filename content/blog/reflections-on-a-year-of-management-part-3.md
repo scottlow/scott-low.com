@@ -3,9 +3,9 @@ title: "Reflections on a Year of Management: What I Learned"
 date: "2022-02-21"
 tags: ["leadership", "learnings", "management", "reflections"]
 ---
-This is the final post in a three-part series chronicling my reflections on [what went well](https://scott-low.com/reflections-on-a-year-of-management-part-1), [what could have gone better](https://scott-low.com/reflections-on-a-year-of-management-part-2/), and what I learned in my first year as a manager.
+This is the final post in a three-part series chronicling my reflections on [what went well](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1), [what could have gone better](https://scott-low.com/blog/reflections-on-a-year-of-management-part-2/), and what I learned in my first year as a manager.
 
-The [first post](https://scott-low.com/reflections-on-a-year-of-management-part-1/) begins with a bit more preamble on the motivations behind this series, so without further ado, let's jump into what I learned.
+The [first post](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1/) begins with a bit more preamble on the motivations behind this series, so without further ado, let's jump into what I learned.
 
 # What I learned
 
@@ -15,13 +15,13 @@ Looking back on the past year and change, it's challenging for me to succinctly 
 
 The [SLII framework](https://www.kenblanchard.com/Solutions/SLII) that I learned about from an internal training was instrumental in shaping my early approach to leadership; it drove home the point that everyone has differing levels of competence and commitment to specific tasks, and that adopting a single leadership style in every situation (or for every person) greatly under-serves—and can even frustrate and alienate—people on your team. It also gave me a great framework to share with the rest of the team for assessing our collective strengths and weaknesses when it came to building both end-user and developer facing product. 
 
-As I mentioned briefly in a [previous post](https://scott-low.com/reflections-on-a-year-of-management-part-1/), to run this assessment, I created a PowerPoint template with a single slide for each phase of the Discover, Define, Design, Develop, Deliver, and Debrief product lifecycle loop described by [_Cracking the PM Career_](https://www.goodreads.com/book/show/56332351-cracking-the-pm-career). Each slide had a two-column table on it where each row was a specific activity that took place in a certain phase. There was then a blank cell beside each activity name where folks could add their reflections. I sent this template to everyone on the team and asked them to fill in each blank cell with a specific color that corresponded to a certain development level within the SLII framework:
+As I mentioned briefly in a [previous post](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1/), to run this assessment, I created a PowerPoint template with a single slide for each phase of the Discover, Define, Design, Develop, Deliver, and Debrief product lifecycle loop described by [_Cracking the PM Career_](https://www.goodreads.com/book/show/56332351-cracking-the-pm-career). Each slide had a two-column table on it where each row was a specific activity that took place in a certain phase. There was then a blank cell beside each activity name where folks could add their reflections. I sent this template to everyone on the team and asked them to fill in each blank cell with a specific color that corresponded to a certain development level within the SLII framework:
 
-![The SLII development levels](../../images/slii-development.png)
+![The SLII development levels](/public/images/blog/slii-development.png)
 
 From there, I took each person's reflections, and after making sure they were okay with having their self-assessments shared with the rest of the team, compiled them all into a single deck where each table had a column corresponding to everyone's answers. Here's a redacted version of our reflections for common tasks in the "Develop" phase:
 
-![My team's reflections for the "Develop" phase](../../images/develop-phase.png)
+![My team's reflections for the "Develop" phase](/public/images/blog/develop-phase.png)
 
 This view, and the corresponding discussion that followed this exercise was eye-opening, as it helped the team identify where its collective strengths and areas of development were. As a second order effect, it also helped me (and others on the team) see where their strengths were unique so they could better identify opportunities to coach/learn from others. Following our discussion, I was also able to refer back to the PowerPoint deck we put together when considering who to hire to round out the team, and when trying to choose the best management style to help guide folks through various day to day challenges.
 
@@ -33,7 +33,7 @@ Something several of my directs told me was that they appreciated the level of a
 
 I came across this picture on Twitter the other day (the [entire thread on driving alignment](https://twitter.com/jmwind/status/1493569303030816770?s=20&t=oMoMqJwdTbBpBCs_ha9v8Q) is worth a read) and thought it perfectly visualized another of my key learnings: be more of a peer and less of a boss.
 
-![A breakdown of 1:1 types for driving alignment](../../images/1-1-types.jpg)
+![A breakdown of 1:1 types for driving alignment](/public/images/blog/1-1-types.jpg)
 
 As a firm believer in the fact that harnessing everyone's collective strengths and diverse backgrounds would empower the team to deliver the best possible customer and business outcomes, I knew I needed to foster a culture of openness, trust, and collaboration on the team. I wanted my directs to be comfortable bringing anything—from difficulties in their personal lives, to any size of problem at work—to my (and the rest of the team's) attention so we could work through it together. To encourage this at my level, I strove to remove as many power dynamics as I could (leading with context rather than control) by being as transparent/vulnerable/open to feedback as possible, trying my best to practice a coaching mindset, and making myself available for one-off conversations/meetings whenever they needed something.
 
@@ -67,7 +67,7 @@ While it's possible that my bias towards transparency may have brought certain t
 
 ## Set expectations and check in often
 
-One thing I remember thinking as an IC was that I wished I had access to the same training managers got so I could better understand what my managers were learning, frame observations in ways that would resonate, and provide feedback to help them learn and grow in the new ways that they were focusing on. After becoming a lead, I unfortunately wasn't able to get any of my directs access to the trainings directly, but I'd still share my learnings with them in weekly team meetings and encourage them to hold me accountable whenever they saw me acting in ways that ran counter to how I wanted to develop as a manager. Writing down my [leadership principles](https://www.scott-low.com/babys-first-leadership-principles/) and sharing them with the team also helped folks understand what to expect from me and to point out weak areas as time went on.
+One thing I remember thinking as an IC was that I wished I had access to the same training managers got so I could better understand what my managers were learning, frame observations in ways that would resonate, and provide feedback to help them learn and grow in the new ways that they were focusing on. After becoming a lead, I unfortunately wasn't able to get any of my directs access to the trainings directly, but I'd still share my learnings with them in weekly team meetings and encourage them to hold me accountable whenever they saw me acting in ways that ran counter to how I wanted to develop as a manager. Writing down my [leadership principles](https://www.scott-low.com/blog/babys-first-leadership-principles/) and sharing them with the team also helped folks understand what to expect from me and to point out weak areas as time went on.
 
 A key learning for me in this space was to check in with everyone regularly on how I was doing. Beyond ensuring that my directs were able to provide feedback on how they wanted to be led and hold me accountable for any improvements I promised I'd make, I firmly believe that this process helped cement strong feedback loops within the team as well. The check-in meetings would often include back and forth discussions on what we both could be doing better to support one another and helped develop a sense of joint accountability. I'm so grateful for all the ways that my directs helped me grow as a leader, a product manager, and a human being.
 
@@ -87,7 +87,7 @@ I still have a long way to go to be comfortable providing specific, actionable, 
 
 I know the term is over-used, but quite possibly one of the most impactful things I did as a new manager was to fully embrace the learn-it-all mindset. I made peace early with the fact that I had no idea what I was doing and turned to friends/the internet to try to find as many resources that I could leverage as possible.
 
-![An actual picture of me on my first day as a manager](../../images/dog.jpeg)
+![An actual picture of me on my first day as a manager](/public/images/blog/dog.jpeg)
 
 I've had a few folks who are new to management reach out and ask me what resources I found most useful, so I wanted to share them here with you all as well. If there are others that aren't on this list that should be, please hit me up; I'm always looking for recommendations!
 

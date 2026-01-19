@@ -3,7 +3,7 @@ title: "Reflections on a Year of Management: What Could Have Gone Better"
 date: "2022-02-20"
 tags: ["leadership", "learnings", "management", "reflections"]
 ---
-This is the second post in a three-part series chronicling my reflections on [what went well](https://scott-low.com/reflections-on-a-year-of-management-part-1/), what could have gone better, and [what I learned](https://scott-low.com/reflections-on-a-year-of-management-part-3/) in my first year as a manager.
+This is the second post in a three-part series chronicling my reflections on [what went well](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1/), what could have gone better, and [what I learned](https://scott-low.com/blog/reflections-on-a-year-of-management-part-3/) in my first year as a manager.
 
 The [first post](https://scott-low.com/reflections-on-a-year-of-management-part-1/) begins with a bit more preamble on the motivations behind this series, so without further ado, let's jump into what I think could have gone better.
 
@@ -45,7 +45,7 @@ I wish I'd dedicated more time to these initiatives, as I think they would have 
 
 ## Hiring velocity
 
-While on one hand (see the [previous post](https://scott-low.com/reflections-on-a-year-of-management-part-1/) in this series), I'm glad that I took the time to think deeply about what the team needed for long-term success and hired a diverse set of folks who helped build a truly magical culture of customer-focus and collaboration, I'm also painfully aware that I had positions on the team that were open for months before being filled.
+While on one hand (see the [previous post](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1/) in this series), I'm glad that I took the time to think deeply about what the team needed for long-term success and hired a diverse set of folks who helped build a truly magical culture of customer-focus and collaboration, I'm also painfully aware that I had positions on the team that were open for months before being filled.
 
 The most direct impact of these open positions was the fact that I was spending more time being an IC and less time being a lead. This came with both benefits and drawbacks. On the one hand, spending more time as an IC helped me ramp up in our team's data and experimentation systems, allowing me to coach others through the challenges they faced when they went through the same process and giving me the opportunity to model the customer- and data-first culture I wanted to cultivate on the team. On the other hand, this IC work took time away from the deep focus time I should have carved out as a manager to think more broadly and strategically about where the team was going or to help build out programming to develop other PMs on the team at scale.
 
