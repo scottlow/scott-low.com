@@ -3,9 +3,9 @@ title: "Reflections on a Year of Management: What I Learned"
 date: "2022-02-21"
 tags: ["leadership", "learnings", "management", "reflections"]
 ---
-This is the final post in a three-part series chronicling my reflections on [what went well](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1), [what could have gone better](https://scott-low.com/blog/reflections-on-a-year-of-management-part-2/), and what I learned in my first year as a manager.
+This is the final post in a three-part series chronicling my reflections on [what went well](/blog/reflections-on-a-year-of-management-part-1), [what could have gone better](/blog/reflections-on-a-year-of-management-part-2/), and what I learned in my first year as a manager.
 
-The [first post](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1/) begins with a bit more preamble on the motivations behind this series, so without further ado, let's jump into what I learned.
+The [first post](/blog/reflections-on-a-year-of-management-part-1/) begins with a bit more preamble on the motivations behind this series, so without further ado, let's jump into what I learned.
 
 # What I learned
 
@@ -15,7 +15,7 @@ Looking back on the past year and change, it's challenging for me to succinctly 
 
 The [SLII framework](https://www.kenblanchard.com/Solutions/SLII) that I learned about from an internal training was instrumental in shaping my early approach to leadership; it drove home the point that everyone has differing levels of competence and commitment to specific tasks, and that adopting a single leadership style in every situation (or for every person) greatly under-serves—and can even frustrate and alienate—people on your team. It also gave me a great framework to share with the rest of the team for assessing our collective strengths and weaknesses when it came to building both end-user and developer facing product. 
 
-As I mentioned briefly in a [previous post](https://scott-low.com/blog/reflections-on-a-year-of-management-part-1/), to run this assessment, I created a PowerPoint template with a single slide for each phase of the Discover, Define, Design, Develop, Deliver, and Debrief product lifecycle loop described by [_Cracking the PM Career_](https://www.goodreads.com/book/show/56332351-cracking-the-pm-career). Each slide had a two-column table on it where each row was a specific activity that took place in a certain phase. There was then a blank cell beside each activity name where folks could add their reflections. I sent this template to everyone on the team and asked them to fill in each blank cell with a specific color that corresponded to a certain development level within the SLII framework:
+As I mentioned briefly in a [previous post](blog/reflections-on-a-year-of-management-part-1/), to run this assessment, I created a PowerPoint template with a single slide for each phase of the Discover, Define, Design, Develop, Deliver, and Debrief product lifecycle loop described by [_Cracking the PM Career_](https://www.goodreads.com/book/show/56332351-cracking-the-pm-career). Each slide had a two-column table on it where each row was a specific activity that took place in a certain phase. There was then a blank cell beside each activity name where folks could add their reflections. I sent this template to everyone on the team and asked them to fill in each blank cell with a specific color that corresponded to a certain development level within the SLII framework:
 
 ![The SLII development levels](/images/blog/slii-development.png)
 

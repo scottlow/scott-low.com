@@ -3,7 +3,7 @@ title: "Reflections on a Year of Management: What Went Well"
 date: "2022-02-19"
 tags: ["leadership", "learnings", "management", "reflections"]
 ---
-It's been almost exactly a year since I wrote a [blog post](https://www.scott-low.com/blog/babys-first-leadership-principles/) on my leadership principles and shared it with my team, asking them to keep me accountable as I grew as their manager. Thinking back on my mindset in that moment, I was ~four months into my management journey and largely felt like I had no idea what I was doing. Fast forward a year and I still largely feel like I have no idea what I'm doing, but I _can_ say that I'm proud of how well these principles—which I thought I'd for sure revisit as time went on—have held up. I'm also extraordinarily grateful for and humbled by the outpouring of positive feedback and support I received from my team when I announced earlier this month that I'd be moving into a new role on the Microsoft Viva team after spending the past six years on Microsoft Edge. Being responsible for others' careers and development was a huge responsibility that I didn't take lightly, and hearing folks reflect on how much they learned, grew, and felt cared for meant so much to me.
+It's been almost exactly a year since I wrote a [blog post](/blog/babys-first-leadership-principles/) on my leadership principles and shared it with my team, asking them to keep me accountable as I grew as their manager. Thinking back on my mindset in that moment, I was ~four months into my management journey and largely felt like I had no idea what I was doing. Fast forward a year and I still largely feel like I have no idea what I'm doing, but I _can_ say that I'm proud of how well these principles—which I thought I'd for sure revisit as time went on—have held up. I'm also extraordinarily grateful for and humbled by the outpouring of positive feedback and support I received from my team when I announced earlier this month that I'd be moving into a new role on the Microsoft Viva team after spending the past six years on Microsoft Edge. Being responsible for others' careers and development was a huge responsibility that I didn't take lightly, and hearing folks reflect on how much they learned, grew, and felt cared for meant so much to me.
 
 Since the role in Viva will be an IC role to start with, I wanted to spend some time reflecting on what went well, what could have gone better, and what I learned in my first year as a manager so that I'll be able to jump back into this mindset the next time I'm given the opportunity to lead a team. Beyond helping me reflect while the learnings are fresh, I hope this post will be helpful for others who are either new managers or hoping to become managers in the future. If this is you and you want to chat more, please feel free to reach out anytime!
 
@@ -12,7 +12,7 @@ I'm not going to lie, leaving behind an _incredible_ team of exceptional PMs tha
 Given how much there is to say on each topic, I'll be splitting this into a series of posts:
 
 1. What went well (this post)
-1. [What could have gone better](https://www.scott-low.com/blog/reflections-on-a-year-of-management-part-2/)
+1. [What could have gone better](/blog/reflections-on-a-year-of-management-part-2/)
 1. [What I learned](https://scott-low.com/blog/reflections-on-a-year-of-management-part-3/)
 
 # What went well
