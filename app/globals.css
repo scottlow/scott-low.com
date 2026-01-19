@@ -14,10 +14,12 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    background-color: #f8fbfc;
   }
 
   body {
-    @apply bg-white text-gray-900 antialiased;
+    @apply text-gray-900 antialiased;
+    background-color: #c0e6ef;
   }
 
   /* Respect reduced motion preferences */
