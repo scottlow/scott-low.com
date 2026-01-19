@@ -98,6 +98,35 @@
   .prose-blog hr {
     @apply my-8 border-gray-200;
   }
+
+  /* Footnotes */
+  .prose-blog sup a {
+    @apply text-accent-600 hover:text-accent-700 no-underline font-medium;
+  }
+
+  .prose-blog .footnotes {
+    @apply mt-12 pt-8 border-t border-gray-200 text-sm;
+  }
+
+  .prose-blog .footnotes h2 {
+    @apply sr-only;
+  }
+
+  .prose-blog .footnotes ol {
+    @apply pl-4;
+  }
+
+  .prose-blog .footnotes li {
+    @apply text-gray-600 mb-3;
+  }
+
+  .prose-blog .footnotes li p {
+    @apply mb-1 inline;
+  }
+
+  .prose-blog .footnotes .data-footnote-backref {
+    @apply text-accent-600 hover:text-accent-700 no-underline ml-1;
+  }
 }
 
 @layer utilities {

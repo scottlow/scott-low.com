@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getAllPostSlugs, getPostBySlug, formatDate } from '@/lib/blog';
 import { remark } from 'remark';
+import gfm from 'remark-gfm';
 import html from 'remark-html';
 import ParallaxBackground from '@/components/ParallaxBackground';
 
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function markdownToHtml(markdown: string): Promise<string> {
-  const result = await remark().use(html).process(markdown);
+  const result = await remark().use(gfm).use(html).process(markdown);
   return result.toString();
 }
 

@@ -49,11 +49,8 @@ While I'm sure I'll revisit these principles even sooner than I expect, I'm than
 
 I'd love to hear your thoughts on Twitter![^3]
 
-[^1]:
-  I'm not proud of how long it took me to come up with this. I have no idea how the [Chrome privacy team](https://www.chromium.org/Home/chromium-privacy/privacy-sandbox) and the folks in the W3C Web Advertising Business Group create such great backronyms—especially given that they're further limited by the fact that all their backronyms need to be bird names!
+[^1]: I'm not proud of how long it took me to come up with this. I have no idea how the [Chrome privacy team](https://www.chromium.org/Home/chromium-privacy/privacy-sandbox) and the folks in the W3C Web Advertising Business Group create such great backronyms—especially given that they're further limited by the fact that all their backronyms need to be bird names!
 
-[^2]:
-  I prefer [this twist](https://www.kenblanchardbooks.com/a-new-twist-on-smart-goals/) on the SMART acrynom, where the "M" stands for "Motivating", rather than "Measurable".
+[^2]: I prefer [this twist](https://www.kenblanchardbooks.com/a-new-twist-on-smart-goals/) on the SMART acrynom, where the "M" stands for "Motivating", rather than "Measurable".
 
-[^3]:
-  I'll add comments to this blog one day, I swear.
+[^3]: I'll add comments to this blog one day, I swear.
