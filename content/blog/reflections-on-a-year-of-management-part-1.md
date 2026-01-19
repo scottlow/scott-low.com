@@ -27,7 +27,7 @@ When I started out as a manager, there was some natural attrition from folks who
 
 2. **Running a strengths/weaknesses exercise on the team** - I struggle to remember what prompted this experiment, but a few months after sharing my leadership principles with my team, I took the list of common PM tasks that [_Cracking the PM Career_](https://www.goodreads.com/book/show/56332351-cracking-the-pm-career) identified in each phase of the Discover, Define, Design, Develop, Deliver, and Debrief product loop and had folks self-assess both their competence and level of commitment to each task, a form of self-evaluation I learned from [Ken Blanchard's Situational Leadership training](https://www.kenblanchard.com/Solutions/SLII):
 
-    ![The SLII model of situational leadership](/public/images/blog/situational-leadership-ii.png)
+    ![The SLII model of situational leadership](/images/blog/situational-leadership-ii.png)
 
     Beyond increasing transparency, vulnerability, and trust on the team, having the team (myself included) reflect on and openly share their strengths and weaknesses helped me understand where the team needed to collectively grow the most, how hiring could help fill the gaps, and how I should approach managing each person on the team depending on what task they were trying to complete/where they were in the product lifecycle.
 

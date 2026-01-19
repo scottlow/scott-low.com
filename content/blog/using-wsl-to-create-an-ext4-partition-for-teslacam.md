@@ -115,7 +115,7 @@ I couldn't help but think that **this sounded like a perfect job for the Windows
 
     You should see the following icon appear:
 
-    ![*An image of Tesla's recording indicator from [PureTesla](https://puretesla.com/how-to-setup-tesla-dashcam-and-sentry-mode/)*](/public/images/blog/images/tesla.jpg)
+    ![*An image of Tesla's recording indicator from [PureTesla](https://puretesla.com/how-to-setup-tesla-dashcam-and-sentry-mode/)*](/images/blog/images/tesla.jpg)
 
 1. **That's it!**
 
