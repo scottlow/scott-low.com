@@ -43,12 +43,12 @@ export default function ParallaxBackground() {
 
   return (
     <div
-      className="fixed inset-0 -z-10 overflow-hidden pointer-events-none"
+      className="fixed -inset-20 -z-10 overflow-hidden pointer-events-none"
       aria-hidden="true"
     >
       {/* Base gradient - deepens as you scroll */}
       <div
-        className="absolute inset-0 transition-colors duration-1000"
+        className="absolute -inset-20 transition-colors duration-1000"
         style={{
           background: `linear-gradient(
             180deg,

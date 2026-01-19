@@ -14,12 +14,12 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Match top of parallax gradient for iOS overscroll */
     background-color: #f8fbfc;
   }
 
   body {
-    @apply text-gray-900 antialiased;
-    background-color: #c0e6ef;
+    @apply bg-transparent text-gray-900 antialiased;
   }
 
   /* Respect reduced motion preferences */
