@@ -6,6 +6,7 @@ import { remark } from 'remark';
 import gfm from 'remark-gfm';
 import html from 'remark-html';
 import ParallaxBackground from '@/components/ParallaxBackground';
+import FootnoteHandler from '@/components/FootnoteHandler';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -33,7 +34,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 async function markdownToHtml(markdown: string): Promise<string> {
-  const result = await remark().use(gfm).use(html).process(markdown);
+  const result = await remark()
+    .use(html)
+    .use(gfm)
+    .process(markdown);
   return result.toString();
 }
 
@@ -50,6 +54,7 @@ export default async function BlogPost({ params }: Props) {
   return (
     <>
       <ParallaxBackground />
+      <FootnoteHandler />
       <article className="py-16 sm:py-24">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back link */}
