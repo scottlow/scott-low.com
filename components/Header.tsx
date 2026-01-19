@@ -9,9 +9,9 @@ const navLinks = [
 ];
 
 const externalLinks = [
-  { href: '#', label: 'LinkedIn', icon: 'linkedin' },
-  { href: '#', label: 'GitHub', icon: 'github' },
-  { href: 'mailto:#', label: 'Email', icon: 'email' },
+  { href: 'https://www.linkedin.com/in/sclow/', label: 'LinkedIn', icon: 'linkedin' },
+  { href: 'https://github.com/scottlow/', label: 'GitHub', icon: 'github' },
+  { href: 'mailto:%73cott@scott%2D%6Cow%2E%63%6Fm', label: 'Email', icon: 'email' },
 ];
 
 export default function Header() {

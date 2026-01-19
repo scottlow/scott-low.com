@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ProfileSectionProps {
   name: string;
@@ -7,6 +8,9 @@ interface ProfileSectionProps {
 }
 
 export default function ProfileSection({ name, bio, imageSrc }: ProfileSectionProps) {
+  const [greeting, rest] = bio.split(' I\'m a');
+  const [beforeBlog, afterBlog] = rest ? (' I\'m a' + rest).split('my blog') : ['', ''];
+
   return (
     <section className="py-16 sm:py-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,11 +30,13 @@ export default function ProfileSection({ name, bio, imageSrc }: ProfileSectionPr
 
           {/* Bio Content */}
           <div className="flex-1 text-center sm:text-left">
-            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              {name}
-            </h1>
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
-              {bio}
+              <span className="font-medium text-gray-900">{greeting}</span>
+              {beforeBlog}
+              <Link href="/blog" className="text-accent-600 hover:text-accent-700 underline underline-offset-2">
+                my blog
+              </Link>
+              {afterBlog}
             </p>
           </div>
         </div>

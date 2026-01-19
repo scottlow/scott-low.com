@@ -72,59 +72,62 @@ export default async function BlogPost({ params }: Props) {
             Back to blog
           </Link>
 
-          {/* Header */}
-          <header className="mb-12">
-            <time
-              dateTime={post.date}
-              className="text-sm text-gray-500 block mb-3"
-            >
-              {formatDate(post.date)}
-            </time>
-            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-balance">
-              {post.title}
-            </h1>
-            {post.tags && post.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2">
-                {post.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs px-2 py-1 rounded-full bg-accent-50 text-accent-700"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )}
-          </header>
-
-          {/* Content */}
-          <div
-            className="prose-blog"
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
-
-          {/* Footer */}
-          <footer className="mt-16 pt-8 border-t border-gray-200">
-            <Link
-              href="/blog"
-              className="inline-flex items-center text-accent-600 hover:text-accent-700 font-medium transition-colors"
-            >
-              <svg
-                className="mr-2 w-4 h-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+          {/* Post container */}
+          <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 sm:p-10 shadow-sm border border-gray-100">
+            {/* Header */}
+            <header className="mb-12">
+              <time
+                dateTime={post.date}
+                className="text-sm text-gray-500 block mb-3"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-              Back to all posts
-            </Link>
-          </footer>
+                {formatDate(post.date)}
+              </time>
+              <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-balance">
+                {post.title}
+              </h1>
+              {post.tags && post.tags.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                  {post.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="text-xs px-2 py-1 rounded-full bg-accent-50 text-accent-700"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </header>
+
+            {/* Content */}
+            <div
+              className="prose-blog"
+              dangerouslySetInnerHTML={{ __html: contentHtml }}
+            />
+
+            {/* Footer */}
+            <footer className="mt-16 pt-8 border-t border-gray-200">
+              <Link
+                href="/blog"
+                className="inline-flex items-center text-accent-600 hover:text-accent-700 font-medium transition-colors"
+              >
+                <svg
+                  className="mr-2 w-4 h-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 19l-7-7 7-7"
+                  />
+                </svg>
+                Back to all posts
+              </Link>
+            </footer>
+          </div>
         </div>
       </article>
     </>

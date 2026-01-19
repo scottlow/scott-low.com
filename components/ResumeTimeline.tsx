@@ -29,7 +29,7 @@ export default function ResumeTimeline({ items }: ResumeTimelineProps) {
             {items.map((item, index) => (
               <div key={item.id} className="relative pl-12 sm:pl-20">
                 {/* Timeline dot */}
-                <div className="absolute left-2.5 sm:left-6 w-3 h-3 rounded-full bg-accent-500 ring-4 ring-white shadow-sm" />
+                <div className="absolute left-4 sm:left-8 -translate-x-1/2 w-3 h-3 rounded-full bg-accent-500 ring-4 ring-white shadow-sm" />
 
                 {/* Content card */}
                 <div className="bg-white/60 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
