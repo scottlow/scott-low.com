@@ -13,7 +13,7 @@ Given how much there is to say on each topic, I'll be splitting this into a seri
 
 1. What went well (this post)
 1. [What could have gone better](/blog/reflections-on-a-year-of-management-part-2/)
-1. [What I learned](https://scott-low.com/blog/reflections-on-a-year-of-management-part-3/)
+1. [What I learned](/blog/reflections-on-a-year-of-management-part-3/)
 
 # What went well
 
