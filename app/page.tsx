@@ -11,7 +11,6 @@ export default function Home() {
         name={profileData.name}
         tagline={profileData.tagline}
         jobTitle={profileData.jobTitle}
-        company={profileData.company}
         bio={profileData.bio}
         imageSrc={profileData.imageSrc}
       />
