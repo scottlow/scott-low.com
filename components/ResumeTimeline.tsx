@@ -14,7 +14,7 @@ interface ResumeTimelineProps {
 
 export default function ResumeTimeline({ items }: ResumeTimelineProps) {
   return (
-    <section className="py-16 sm:py-24">
+    <section className="pt-6 sm:pt-8 pb-16 sm:pb-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-12 text-center sm:text-left">
           Experience

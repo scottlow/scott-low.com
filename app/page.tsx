@@ -9,6 +9,9 @@ export default function Home() {
       <ParallaxBackground />
       <ProfileSection
         name={profileData.name}
+        tagline={profileData.tagline}
+        jobTitle={profileData.jobTitle}
+        company={profileData.company}
         bio={profileData.bio}
         imageSrc={profileData.imageSrc}
       />
