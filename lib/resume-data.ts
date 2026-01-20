@@ -85,8 +85,8 @@ export const resumeData: TimelineItem[] = [
 
 export const profileData = {
   name: 'Scott Low',
-  tagline: 'Building products, teams, and the systems between them.',
-  jobTitle: 'Chief of Staff to the COO of Microsoft Experiences + Devices',
+  tagline: 'Building products, teams, and systems.',
+  jobTitle: 'Chief of Staff at Microsoft',
   bio: "Hi, I'm Scott 👋 I'm a Canadian Product Manager and Chief of Staff living in Redmond, WA. I'm currently the Chief of Staff for the COO of Microsoft's Experiences + Devices group, leading a team of six to reimagine business operations and strategy for a 3,000 person organization using AI and agents. Outside of work, you'll likely find me dabbling in the kitchen, reading, taking photographs, sailing, or playing with my newborn daughter. I'm challenging myself to write more about the things I've learned, the books I've read, and the latest dishes I've cooked, so please feel free to check out my blog!",
   imageSrc: '/images/profile-img.jpg',
 };

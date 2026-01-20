@@ -43,10 +43,10 @@ export default function ProfileSection({
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-3">
               {name}
             </h1>
-            <p className="text-lg sm:text-xl lg:text-2xl text-gray-500 mb-2 whitespace-nowrap">
+            <p className="text-lg sm:text-xl lg:text-2xl text-gray-500 mb-2 sm:whitespace-nowrap">
               {tagline}
             </p>
-            <p className="text-lg text-accent-600 font-medium">
+            <p className="text-sm sm:text-lg text-accent-600 font-medium">
               {jobTitle}
             </p>
           </div>
