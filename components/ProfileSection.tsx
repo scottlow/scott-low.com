@@ -17,7 +17,8 @@ export default function ProfileSection({
   imageSrc,
 }: ProfileSectionProps) {
   const [greeting, rest] = bio.split(' I\'m a');
-  const [beforeBlog, afterBlog] = rest ? (' I\'m a' + rest).split('my blog') : ['', ''];
+  const [firstParagraph, secondParagraph] = rest ? (' I\'m a' + rest).split(' Outside of work, ') : ['', ''];
+  const [beforeBlog, afterBlog] = secondParagraph ? secondParagraph.split('my blog') : ['', ''];
 
   return (
     <section className="pt-16 sm:pt-24 pb-4 sm:pb-6">
@@ -56,9 +57,12 @@ export default function ProfileSection({
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 text-center sm:text-left">
             About
           </h2>
-          <p className="text-lg text-gray-600 leading-relaxed text-center sm:text-left">
+          <p className="text-lg text-gray-600 leading-relaxed text-center sm:text-left mb-4">
             <span className="font-medium text-gray-900">{greeting}</span>
-            {beforeBlog}
+            {firstParagraph}
+          </p>
+          <p className="text-lg text-gray-600 leading-relaxed text-center sm:text-left">
+            Outside of work, {beforeBlog}
             <Link href="/blog" className="text-accent-600 hover:text-accent-700 underline underline-offset-2">
               my blog
             </Link>
